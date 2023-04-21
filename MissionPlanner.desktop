@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type = Application
+Name = MissionPlanner
+Comment = MissionPlanner-Stable
+Exec = wine /usr/share/applications/MissionPlanner/MissionPlanner.exe
+Icon = /usr/share/applications/MissionPlanner/mpdesktop.ico 

@@ -51,5 +51,3 @@ sudo unzip MissionPlanner.zip
 cd ~/.local/share/applications/
 wget 
 ```
-
-    Note: The file location will need to be changed. Choose /usr/share/applications/
