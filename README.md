@@ -47,7 +47,10 @@ sudo unzip MissionPlanner.zip
 
 6. Install Mission Planner
 
-```Base
-cd ~/.local/share/applications/
-wget 
+```bash
+cd ~/.local/share/applications/ && wget https://raw.githubusercontent.com/Direxfire/Mission-Planner-and-DPC-11-/main/MissionPlanner.desktop
 ```
+
+Mission Planner should now be installed. The first launch may take up to 5 minutes to load, note many windows may flash on the first launch and you may need to enter your password to authorize the system.
+
+See step 7 -> (LAST STEP) for adding MissionPlanner to your serial ports access. 
