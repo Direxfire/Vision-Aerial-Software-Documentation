@@ -15,6 +15,7 @@ Simply download the [auto installer](https://github.com/Direxfire/Mission-Planne
 
 <h4>Option 2: Manual Install. </h4>
 
+## Installing Mission Planner
 1. Prepare for install
 
 ```bash
@@ -73,3 +74,29 @@ Mission Planner should now be installed. The first launch may take up to 5 minut
 ```bash
 sudo usermod -a -G dialout $USER
 ```
+
+## Installing [DCP-11](https://hitecrcd.com/uploads/DPC-11_Install__2020_12_09_01-2.9.9.zip)
+   1. Download DCP-11 
+   ```bash
+   mkdir /usr/share/applications/DPC-11 && cd /usr/share/applications/DPC-11
+   sudo wget https://hitecrcd.com/uploads/DPC-11_Install__2020_12_09_01-2.9.9.zip
+   sudo unzip DPC-11_Install_2020_12_09_01-2.9.9.zip
+   ```
+   2. Install DCP-11
+   ``` bash
+   cd DPC-11_Install_2020_12_09_01-2.9.9/DPC-11_2020_12_09_01-2.9.9
+   sudo wine ./DPC-11_Setup.msi
+   ```
+## Installing [DroneCAN GUI Tool](https://firmware.ardupilot.org/Tools/CAN_GUI/dronecan_gui_tool-1.2.15-win64.msi)
+**Note:** These install directions come directly from DroneCAN GUI Tool
+```bash
+sudo apt-get install -y python3-pip python3-setuptools python3-wheel
+sudo apt-get install -y python3-numpy python3-pyqt5 python3-pyqt5.qtsvg git-core
+sudo pip3 install dronecan
+sudo pip3 install git+https://github.com/DroneCAN/gui_tool@master
+```
+The executable installed is named `dronecan_gui_tool`
+
+## Installing [GTune Desktop](https://github.com/Gremsy/gTuneDesktop/releases/download/v.1.4.9.1/gTuneDesktop1.4.9.1_Windows_Official.zip)
+
+<h2> This needs updated. I also have no idea of the drivers will even work with Linux. Some testing required here ¯\_(ツ)_/¯ </h2>
