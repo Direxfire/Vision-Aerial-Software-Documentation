@@ -2,7 +2,7 @@
 #Created 04/22/23 
 #Created for internal use at VisionAerial
 #Author: Drew Currie
-#Last edited: 04/22/23
+#Last Editted: 04/22/23 -DC
 #Designed for Ubuntu 22.04 only rn
 version=$(lsb_release -r)
 echo "$version"

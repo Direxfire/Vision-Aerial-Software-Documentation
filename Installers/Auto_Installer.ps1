@@ -7,13 +7,15 @@
 
 [Environment]::OSVersion
 Get-Date
-
+echo "Installing Required Software."
+echo "1. Mission Planner"
+echo "2. DPC-11 Servo Configuartion Utility"
 $Mission_Planner = “https://firmware.ardupilot.org/Tools/MissionPlanner/MissionPlanner-stable.zip”
 
 $Path=”C:\Downloads\MissionPlanner.zip”
 
-Invoke-Webrequest -URL $Mission_Planner -OutFile $Path
+Invoke-Webrequest -uri $Mission_Planner -OutFile $Path
 
-Expand-Archive C:\Downloads\MissionPlanner.zip -a C:\Downloads
+Expand-Archive -LiteralPath 'C:\Downloads\MissionPlanner.zip' -DestinationPath C:\Reference
 
 C:\Downloads\MissionPlanner\>./Installer.exe
