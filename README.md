@@ -7,10 +7,11 @@ The following Bash commands need run in the terminal program of your choice.
 By default on Ubuntu this is Terminal. All commands with ```sudo``` in them are running with super admin privledges as we are modifiying some of the core functionality of your system to emulate windows and run these programs. 
 
 The commands are setup to pull the latest version of all software from the supplier. The documentation is linked below to the offical page. 
+<h4>Option 1: Autoinstaller</h4>
+<h4> NOTE: This only supports Ubuntu 22.04 all other version require manual install </h4>
 
-Option 1: Autoinstaller, simply download this file and run in with ``` sudo bash ./Auto_Installer.sh```. This will require your password. <h2> NOTE: This only supports Ubuntu 22.04 all other version require manual install </h2>
-
-Option 2: Manual Install. 
+Simply download "Auto_Installer.sh" the  file and run in with ``` sudo bash ./Auto_Installer.sh```. This will require your password. 
+<h4>Option 2: Manual Install. </h4>
 1. Prepare for install
 
 ```bash
