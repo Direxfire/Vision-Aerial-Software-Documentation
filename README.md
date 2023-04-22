@@ -45,12 +45,19 @@ sudo wget https://firmware.ardupilot.org/Tools/MissionPlanner/MissionPlanner-sta
 sudo unzip MissionPlanner.zip
 ```
 
-6. Install Mission Planner
+6. Install Mission Planner and make searchable
 
 ```bash
-cd ~/.local/share/applications/ && wget https://raw.githubusercontent.com/Direxfire/Mission-Planner-and-DPC-11-/main/MissionPlanner.desktop
+cd ~/.local/share/applications/ && wget https://raw.githubusercontent.com/Direxfire/Mission-Planner-and-DPC-11-/main/MissionPlanner/MissionPlanner.desktop
 ```
 
 Mission Planner should now be installed. The first launch may take up to 5 minutes to load, note many windows may flash on the first launch and you may need to enter your password to authorize the system.
 
-See step 7 -> (LAST STEP) for adding MissionPlanner to your serial ports access. 
+7. Adding yourself to the serial dial out group. This is needed for actually communicating with the drone.  
+```bash
+sudo usermod -a -G dialout $username
+```
+Example from my computer:
+```bash
+drew@DrewsHacknTosh:~$ sudo usermod -a -G dialout drew
+```
