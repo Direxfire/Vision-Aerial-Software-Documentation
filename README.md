@@ -1,7 +1,6 @@
-<p align="center"> 
-
-![Company Logo.](https://github.com/Direxfire/Mission-Planner-and-DPC-11-/blob/main/Assets/VA-Logo)
-</P>
+<p align="center">
+  <img width="460" height="300" src="https://picsum.photos/460/300](https://github.com/Direxfire/Mission-Planner-and-DPC-11-/blob/main/Assets/VA-Logo)">
+</p>
 <h1> Vision Aerial Software install Repository 
 Select your computer operating system from the list below:
 </h1>
