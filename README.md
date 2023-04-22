@@ -10,7 +10,8 @@ The commands are setup to pull the latest version of all software from the suppl
 <h4>Option 1: Autoinstaller</h4>
 <h4> NOTE: This only supports Ubuntu 22.04 all other version require manual install </h4>
 
-Simply download "Auto_Installer.sh" the  file and run in with ``` sudo bash ./Auto_Installer.sh```. This will require your password. 
+Simply download the [auto installer](https://github.com/Direxfire/Mission-Planner-and-DPC-11-/blob/main/MissionPlanner/Auto_Installer.sh) the  file and run it.
+``` sudo bash ./Auto_Installer.sh```. This will require your password. 
 <h4>Option 2: Manual Install. </h4>
 1. Prepare for install
 
