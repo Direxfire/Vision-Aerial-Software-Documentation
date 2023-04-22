@@ -59,8 +59,9 @@ sudo wine ./DPC-11_Setup.msi
 ```
 
 ## Installing [DroneCAN GUI Tool](https://firmware.ardupilot.org/Tools/CAN_GUI/dronecan_gui_tool-1.2.15-win64.msi)
-### Install prerequisite software  
 These install directions are directly taken from the DroneCAN GUI Tool MacOS Support page. 
+### Install prerequisite software  
+
 
 ```bash
 brew install python3
@@ -76,3 +77,17 @@ sudo port install curl-ca-bundle py35-pip py35-pyqt5 py35-numpy
 sudo python3.5 -m pip install git+https://github.com/DroneCAN/gui_tool@master
 ```
 
+## Installing [GTune Desktop](https://objects.githubusercontent.com/github-production-release-asset-2e65be/71851400/c8814bf9-f1e4-4a74-ab63-6aada8280732?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230422%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230422T211724Z&X-Amz-Expires=300&X-Amz-Signature=0ccfde50201b08c0031fb8738c0f017240af7977354567272c70057a99d0494b&X-Amz-SignedHeaders=host&actor_id=7505494&key_id=0&repo_id=71851400&response-content-disposition=attachment%3B%20filename%3DgTuneDesktop1.4.9.1_Mac_Official.zip&response-content-type=application%2Foctet-stream)
+- Install Required Drivers: 
+    1. Download the drivers [here](https://www.silabs.com/documents/public/software/Mac_OSX_VCP_Driver.zip).
+    2. In `Downloads` extract the `Mac_OSX_VCP_Driver.zip` folder by right clicking on it and selected extract. 
+    3. Once extracted, double click the `SiLabsUSBDriverDisk.dmg` file to install. 
+**Note:** 	On MacOS 10.13 and later, the installation of the driver may be blocked. 
+	To unblock, open the System Preferences Security & Privacy pane and
+	unblock the system extension. See Apple Technical Note TN2459
+	"User-Approved Kernel Extension Loading" for more information.
+
+- To install:
+    1. Download the [GTune MacOS Desktop Stable](https://objects.githubusercontent.com/github-production-release-asset-2e65be/71851400/c8814bf9-f1e4-4a74-ab63-6aada8280732?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230422%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230422T211724Z&X-Amz-Expires=300&X-Amz-Signature=0ccfde50201b08c0031fb8738c0f017240af7977354567272c70057a99d0494b&X-Amz-SignedHeaders=host&actor_id=7505494&key_id=0&repo_id=71851400&response-content-disposition=attachment%3B%20filename%3DgTuneDesktop1.4.9.1_Mac_Official.zip&response-content-type=application%2Foctet-stream).
+    2. In `Downloads` extract the installer by right clicking on the `gTuneDesktop1.4.9.1_Mac_Offical.zip` and selecting extract.
+    3. Run the `gTuneDesktop1.4.9.1_Mac_Official.dmg`.
