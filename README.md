@@ -3,6 +3,12 @@
 Installing Mission Planner and DPC-11 on MacOS and Ubuntu installs
 
 Ubuntu
+The following Bash commands need run in the terminal program of your choice. 
+By default on Ubuntu this is Terminal. All commands with ```sudo``` in them are running with super admin privledges as we are modifiying some of the core functionality of your system to emulate windows and run these programs. 
+
+The commands are setup to pull the latest version of all software from the supplier. The documentation is linked below to the offical page. 
+
+##Installation
 
 1. Prepare for install
 
@@ -61,3 +67,4 @@ Example from my computer:
 ```bash
 drew@DrewsHacknTosh:~$ sudo usermod -a -G dialout drew
 ```
+
