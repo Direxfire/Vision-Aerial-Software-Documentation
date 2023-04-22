@@ -1,4 +1,4 @@
-![Company Logo.](/assets/VA-Logo.jpeg)
+![Company Logo.](https://github.com/Direxfire/Mission-Planner-and-DPC-11-/blob/main/Assets/VA-Logo)
 
 <h1> Vision Aerial Software install Repository 
 Select your computer operating system from the list below:
