@@ -4,4 +4,4 @@
 
 <h4> [Windows 10/11](README_WINDOWS.md)</h4>
 <h4> [MacOS](README_MACOS.md)</h4>
-<h4> [Ubuntu](https://github.com/Direxfire/Mission-Planner-and-DPC-11-/blob/main/README_UBUNTU.md)</h4>
+Simply download the [auto installer](https://github.com/Direxfire/Mission-Planner-and-DPC-11-/blob/main/MissionPlanner/Auto_Installer.sh)  file and run it.
