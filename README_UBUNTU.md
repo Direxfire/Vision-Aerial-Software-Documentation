@@ -1,6 +1,6 @@
-# Mission-Planner-and-DPC-11
+# Installing Required Software on Ubuntu
 
-Installing Mission Planner and DPC-11 on Ubuntu.
+Installing Mission Planner on Ubuntu.
 
 The following Bash commands need to be run in the terminal program of your choice.
 By default on Ubuntu this is "Terminal". All commands with `sudo` in them are running with super admin privledges as we are modifiying some of the core functionality of your system to emulate windows and run these programs.
@@ -10,8 +10,8 @@ The commands are setup to pull the latest version of all software from the suppl
 <h4>Option 1: Autoinstaller</h4>
 <h4> NOTE: This only supports Ubuntu 22.04 all other version require manual install </h4>
 
-Simply download the [auto installer](https://github.com/Direxfire/Mission-Planner-and-DPC-11-/blob/main/Installers/Auto_Installer.sh)  file and run it.
-` sudo bash ./Auto_Installer.sh`. This will require your password.
+Simply download the [auto installer](https://github.com/Direxfire/Mission-Planner-and-DPC-11-/blob/main/Installers/Ubuntu_Auto_Installer.sh)  file and run it.
+` sudo bash ./Ubuntu_Auto_Installer.sh`. This will require your password.
 
 <h4>Option 2: Manual Install. </h4>
 
