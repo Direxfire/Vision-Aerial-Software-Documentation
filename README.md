@@ -8,8 +8,9 @@ By default on Ubuntu this is Terminal. All commands with ```sudo``` in them are 
 
 The commands are setup to pull the latest version of all software from the supplier. The documentation is linked below to the offical page. 
 
-##Installation
+Option 1: Autoinstaller, simply download this file and run in with ``` sudo bash ./Auto_Installer.sh```. This will require your password. <h2> NOTE: This only supports Ubuntu 22.04 all other version require manual install </h2>
 
+Option 2: Manual Install. 
 1. Prepare for install
 
 ```bash
