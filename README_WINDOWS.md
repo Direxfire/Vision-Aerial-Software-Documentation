@@ -45,8 +45,17 @@ This installer will install Mission Planner, DPC-11, DroneCAN GUI Tool, and GTun
    1. Go to your `Downloads` folder.
    2. Run the `gTuneDesktop1.4.7.2_Windows.msi` program to install DroneCAN GUI Tool.
 
-## Installing [GTune Desktop](gTuneDesktop1.4.7.2_Windows)
+## Installing [GTune Desktop](https://github.com/Gremsy/gTuneDesktop/releases/download/v.1.4.9.1/gTuneDesktop1.4.9.1_Windows_Official.zip)
 
 - To install:
+   1. Downloading the drivers
+      - Download the drivers [here](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip)
+      - Once downloaded, go to your `Downloads` folder.
+      - Extract the `CP210210x_Universal_Windows_Driver.zip` by right clicking on it and selecteding extract. 
+      - Open the `CP210210xUniversal_Windows_Driver` folder that was just created.
+      - Right click on the `silabser.inf` file and select Install.
+
    1. Go to your `Downloads` folder.
-   2. Unzip `DPC-11_Install__2020_12_09_01-2.9.9.zip` by right clicking it and selecting extract.
+   2. Unzip `gTuneDesktop1.4.9.1_Windows_Official.zip` by right clicking it and selecting extract.
+   3. There will now be a file called `gTuneDesktop1.4.9.1_Windows_Official.exe` double click on this to run GTune Desktop. 
+   

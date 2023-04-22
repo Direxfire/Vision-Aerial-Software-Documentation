@@ -77,7 +77,7 @@ sudo port install curl-ca-bundle py35-pip py35-pyqt5 py35-numpy
 sudo python3.5 -m pip install git+https://github.com/DroneCAN/gui_tool@master
 ```
 
-## Installing [GTune Desktop](https://objects.githubusercontent.com/github-production-release-asset-2e65be/71851400/c8814bf9-f1e4-4a74-ab63-6aada8280732?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230422%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230422T211724Z&X-Amz-Expires=300&X-Amz-Signature=0ccfde50201b08c0031fb8738c0f017240af7977354567272c70057a99d0494b&X-Amz-SignedHeaders=host&actor_id=7505494&key_id=0&repo_id=71851400&response-content-disposition=attachment%3B%20filename%3DgTuneDesktop1.4.9.1_Mac_Official.zip&response-content-type=application%2Foctet-stream)
+## Installing [GTune Desktop](https://github.com/Gremsy/gTuneDesktop/releases/download/v.1.4.9.1/gTuneDesktop1.4.9.1_Mac_Official.zip)
 - Install Required Drivers: 
     1. Download the drivers [here](https://www.silabs.com/documents/public/software/Mac_OSX_VCP_Driver.zip).
     2. In `Downloads` extract the `Mac_OSX_VCP_Driver.zip` folder by right clicking on it and selected extract. 
@@ -88,6 +88,6 @@ sudo python3.5 -m pip install git+https://github.com/DroneCAN/gui_tool@master
 	"User-Approved Kernel Extension Loading" for more information.
 
 - To install:
-    1. Download the [GTune MacOS Desktop Stable](https://objects.githubusercontent.com/github-production-release-asset-2e65be/71851400/c8814bf9-f1e4-4a74-ab63-6aada8280732?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230422%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230422T211724Z&X-Amz-Expires=300&X-Amz-Signature=0ccfde50201b08c0031fb8738c0f017240af7977354567272c70057a99d0494b&X-Amz-SignedHeaders=host&actor_id=7505494&key_id=0&repo_id=71851400&response-content-disposition=attachment%3B%20filename%3DgTuneDesktop1.4.9.1_Mac_Official.zip&response-content-type=application%2Foctet-stream).
+    1. Download the [GTune MacOS Desktop Stable](https://github.com/Gremsy/gTuneDesktop/releases/download/v.1.4.9.1/gTuneDesktop1.4.9.1_Mac_Official.zip).
     2. In `Downloads` extract the installer by right clicking on the `gTuneDesktop1.4.9.1_Mac_Offical.zip` and selecting extract.
     3. Run the `gTuneDesktop1.4.9.1_Mac_Official.dmg`.
