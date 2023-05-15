@@ -36,7 +36,7 @@ Brew and WINE are now installed on your MacOS Device  :tada:
 ```bash 
 mkdir /Applications/MissionPlanner && cd /Applications/MissionPlanner 
 sudo wget https://firmware.ardupilot.org/Tools/MissionPlanner/MissionPlanner-stable.zip
-sudo unzip MissionPlanner.zip
+sudo unzip MissionPlanner-stable.zip
 ```
 ### Install Mission Planner
 **NOTE:** This section is untested and may have issues.
