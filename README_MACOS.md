@@ -49,7 +49,7 @@ sudo wine ./Installer.exe
 ### Download DPC-11 Utility
 ```bash 
 mkdir /Applications/DPC-11 && cd /Applications/MissionPlanner
-sudo wget https://lnk.bio/go?d=https%3A%2F%2Fhitecrcd.com%2Fuploads%2FDPC-11_Install__2020_12_09_01-2.9.9.zip&hash=04c74dce66b8ae2f3b73cbebe0cab52c&id=4011645&ext=-1422301&timezone=America%2FNew_York&type=1)
+sudo wget https://hitecrcd.com/uploads/DPC-11_Install__2020_12_09_01-2.9.9.zip
 unzip DPC-11_2020_12_09_01-2.9.9
 ```
 ### Install DPC-11 
